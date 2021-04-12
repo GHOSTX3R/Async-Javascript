@@ -25,14 +25,14 @@ function getVideoDetails(videos) {
 console.log('Start');
 
 // callback hell
-login('email@gomail.com', 12345, (email) => {
-  console.log(email);
-  getUserVideos(email, (videos) => {
-    console.log(videos);
-    getVideoDetails(videos, (video) => {
-      console.log(video + ' is awesome');
-    });
-  });
-});
+// login('email@gomail.com', 12345, (email) => {
+//   console.log(email);
+//   getUserVideos(email, (videos) => {
+//     console.log(videos);
+//     getVideoDetails(videos, (video) => {
+//       console.log(video + ' is awesome');
+//     });
+//   });
+// });
 
 console.log('Finish');
